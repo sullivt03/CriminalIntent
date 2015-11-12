@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_change"
+            android:text="@string/date_choose"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            style="?android:attr/borderlessButtonStyle"/>
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/date_change"
+            android:background="#4c4c4c"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_change"
+            android:text="@string/time_choose"
+            android:layout_below="@+id/date_change"
+            android:layout_centerHorizontal="true"
+            style="?android:attr/borderlessButtonStyle"/>
+</RelativeLayout>
